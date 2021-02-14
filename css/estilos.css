@@ -187,7 +187,7 @@ li{
 
 .galeria-imagen:hover{
   filter: opacity(0.9);
-  transform: scale(1.04);
+  transform: scale(1.3);
 }
 
 .galeria{
@@ -261,6 +261,12 @@ aside {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-template-rows: repeat(minmax(200px, auto));
   gap: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.imgNosotros:hover{
+  filter: opacity(1);
+  transform: scale(1.3);  
 }
 
 
@@ -311,12 +317,11 @@ input[type=texto], select, textarea {
     display: flex;
     flex-wrap:wrap;
     flex-direction:column;
-    justify-content:contain;
+    justify-content:cover;
   }
 
   .imgComentario{
     width: 50%;
-    height: fit-content;
     padding: 20px;
     justify-content: center;
     align-items: center;
@@ -365,7 +370,6 @@ input[type=texto], select, textarea {
 
   #miFooter{
   background-color: #343A40;
-
   width: 100%;
   position: relative;
   bottom: 0;
@@ -381,7 +385,6 @@ input[type=texto], select, textarea {
     color: ivory;
     text-decoration: underline;
     text-align: center;
-
   }
 
   .listaRedes{
@@ -427,6 +430,13 @@ input[type=texto], select, textarea {
       justify-content: left;
       }  
 
+      .imgComentario{
+        width: 100%;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+
       #textoFooter{
         font-size: 20px;
       }
@@ -459,6 +469,12 @@ input[type=texto], select, textarea {
       text-align: center;
       padding: 20px;
     }
+    .imgComentario{
+      width: 100%;
+      padding: 20px;
+      justify-content: center;
+      align-items: center;
+    }
     #textoFooter{
       font-size: 20px;
     }
@@ -487,6 +503,12 @@ input[type=texto], select, textarea {
     letter-spacing: -4px;
     text-align: center;
     padding: 20px;
+}
+.imgComentario{
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
   #textoFooter{
   font-size: 20px;
