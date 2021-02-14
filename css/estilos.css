@@ -343,6 +343,7 @@ input[type=texto], select, textarea {
   }
   .formulario{
     width: 100%;
+    background-color: rgb(255, 248, 254);
     padding: 20px 20px;
     margin: auto auto;
     align-items: center;
