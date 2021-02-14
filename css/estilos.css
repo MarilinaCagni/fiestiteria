@@ -169,7 +169,8 @@ li{
 
 #fotosClientes{
      font-family: 'Bebas Neue', sans-serif;
-     font-size: 50px;
+     font-size: 40px;
+     padding: 20px;
      text-align: center;
      text-decoration: underline;
      color: black;
@@ -203,7 +204,7 @@ li{
   font-size: 40px;
   text-align: center;
   text-decoration: underline;
-  padding-bottom: 15px;
+  padding: 20px;
 }
 .texto-galeria{
   font-family: 'Roboto Condensed', sans-serif;
@@ -222,9 +223,9 @@ li{
 
 #comentarios{
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 15px;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     text-decoration: underline;
 }
