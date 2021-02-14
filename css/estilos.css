@@ -240,9 +240,39 @@
 
 }
 
+.texto-nosotros aside{
+  width: 75%;
+  padding: 20px;
+  margin-left: 20px;
+  margin: right 0;
+  background-color: rgb(250, 239, 250);
+}
+
 #historia{
-  font-family: 'Grand Hotel' sans-serif;
-  font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.imgcomentario{
+  float: right;
+  width: 100%;
+}
+
+.texto_nosotros aside {
+    display: inline-block;
+    padding: 20px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+div.reset {
+  clear: both;
 }
 
 h1{
