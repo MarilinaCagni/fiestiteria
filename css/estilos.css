@@ -393,13 +393,10 @@ input[type=texto], select, textarea {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
     text-align: center;
-    color: black;
   }
 
 .listaRedes a{
-  color: black;
-  background-color: antiquewhite;
-  text-align: center;
+  color: white;
 }
 
   
